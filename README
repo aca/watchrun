@@ -1,0 +1,15 @@
+watchrun
+--------
+
+Personal alternative to entr, watchexec.
+watchexec had wierd bug, entr had no watchexec --print-events option.
+
+watchexec / entr
+
+    watchexec make
+    find . | entr -r make
+
+watchrun
+
+    wr make
+
