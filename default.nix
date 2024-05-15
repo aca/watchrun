@@ -13,9 +13,10 @@
 }:
 
 buildGoApplication {
-  pname = "myapp";
+  pname = "wr";
   version = "0.1";
   pwd = ./.;
   src = ./.;
+  subPackages = "wr";
   modules = ./gomod2nix.toml;
 }
