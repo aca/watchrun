@@ -1,6 +1,6 @@
 module github.com/aca/watchrun
 
-go 1.22
+go 1.21
 
 require (
 	github.com/charmbracelet/log v0.4.0
